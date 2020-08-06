@@ -1,2 +1,70 @@
 # SceneMover
-Siggraph Asia 2020
+
+<div align="center">
+    <img src="imgs/teaser.png", width="700">
+</div>
+
+This repository is the implementation of our SIGGRAPH ASIA 2020 paper:
+
+[Scene Mover: Automatic Move Planning for Scene Arrangement by Deep Reinforcement Learning](#)
+
+[Hanqing Wang](https://https://hanqingwangai.github.io/), [Wei Liang](http://iitlab.bit.edu.cn/mcislab/~liangwei/), [Lap-Fai Yu](https://craigyuyu.github.io/home/).
+
+
+-----------
+
+## Introduction
+  We propose a novel approach for automatically generating a move plan for scene arrangement. Given a scene like an apartment with many furniture objects, to transform its layout into another layout, one would need to determine a collision-free move plan.
+
+Please refer to our paper for the detailed formulations.
+
+
+## Some Results
+
+
+<div align="center">
+    <img src="imgs/case.gif", width="700">
+</div>
+
+## Environment Installation
+1. **Install Jupyter** 
+  Install jupyter using the following scripts. `pip install jupyter`
+
+2. **Install Requirements**
+  
+3. **Build Files**
+
+## Quick Start
+#### Inference:
+1. Download the checkpoint of the agent to directory `snap/agent/state_dict/best_val_unseen`, the checkpoint of the speaker to directory `snap/speaker/state_dict/best_val_unseen_bleu`.
+2. Start a Jupyter service and run the jupyter notebook [evaluation.ipynb](evaluation.ipynb).
+
+
+## Contributors
+To be updated.
+
+## TODO
+- [ ] Release the checkpoint.
+- [ ] Add training code.
+- [ ] The citation page.
+
+
+
+## Citation
+Please cite this paper in your publications if it helps your research:
+
+    @inproceedings{wang2020scenem,
+        title={Scene Mover: Automatic Move Planning for Scene Arrangement by Deep Reinforcement Learning},
+        author={Wang, Hanqing and Liang, Wei and Lap-Fai Yu},
+        booktitle={ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia},
+        year={2020}
+    }
+
+
+
+## License
+Scene Mover is freely available for non-commercial use, and may be redistributed under these conditions. Please see the [license](LICENSE) for further details. For commercial license, please contact the authors.
+
+## Contact Information
+- hanqingwang[at]bit[dot]edu[dot]cn, Hanqing Wang
+
