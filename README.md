@@ -31,13 +31,15 @@ Please refer to our paper for the detailed formulations.
   Install jupyter using the following scripts. `pip install jupyter`
 
 2. **Install Requirements**
-  
+To be updated.
 3. **Build Files**
+To be updated.
 
 ## Quick Start
 #### Inference:
-1. Download the checkpoint of the agent to directory `snap/agent/state_dict/best_val_unseen`, the checkpoint of the speaker to directory `snap/speaker/state_dict/best_val_unseen_bleu`.
-2. Start a Jupyter service and run the jupyter notebook [evaluation.ipynb](evaluation.ipynb).
+To be updated.
+<!-- 1. Download the checkpoint of the agent to directory `snap/agent/state_dict/best_val_unseen`, the checkpoint of the speaker to directory `snap/speaker/state_dict/best_val_unseen_bleu`.
+2. Start a Jupyter service and run the jupyter notebook [evaluation.ipynb](evaluation.ipynb). -->
 
 
 ## Contributors
@@ -53,12 +55,14 @@ To be updated.
 ## Citation
 Please cite this paper in your publications if it helps your research:
 
-    @inproceedings{wang2020scenem,
-        title={Scene Mover: Automatic Move Planning for Scene Arrangement by Deep Reinforcement Learning},
-        author={Wang, Hanqing and Liang, Wei and Lap-Fai Yu},
-        booktitle={ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia},
-        year={2020}
-    }
+    @article{wang2020scenem,
+      author = {Hanqing Wang and Wei Liang and Lap-Fai Yu},
+      title = {Scene Mover: Automatic Move Planning for Scene Arrangement by Deep Reinforcement Learning}, 
+      journal = {ACM Transactions on Graphics},
+      volume = {39},
+      number = {6},
+      year = {2020}
+  }
 
 
 
