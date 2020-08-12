@@ -48,8 +48,6 @@ To be updated.
 ## TODO
 - [ ] Release the checkpoint.
 - [ ] Add training code.
-- [ ] The citation page.
-
 
 
 ## Citation
