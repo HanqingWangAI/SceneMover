@@ -19,7 +19,7 @@ This repository is the implementation of our SIGGRAPH ASIA 2020 paper:
 Please refer to our paper for the detailed formulations.
 
 
-## Some Results
+## Demonstration
 
 
 <div align="center">
