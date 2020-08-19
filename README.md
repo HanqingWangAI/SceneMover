@@ -4,7 +4,7 @@
     <img src="imgs/teaser.png", width="700">
 </div>
 
-This repository is the implementation of our SIGGRAPH ASIA 2020 paper:
+This repository is the implementation of our SIGGRAPH Asia 2020 paper:
 
 [Scene Mover: Automatic Move Planning for Scene Arrangement by Deep Reinforcement Learning](#)
 
