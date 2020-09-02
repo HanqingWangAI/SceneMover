@@ -25,10 +25,10 @@ Please refer to our paper for the detailed formulations.
 <!-- <div align="center">
     <img src="imgs/case.gif", width="700">
 </div> -->
+Click [here](https://www.youtube.com/embed/zSM-s7zh-vk) to watch the demonstration on Youtube.
+[![Scene Mover](imgs/case.gif)](https://www.youtube.com/embed/zSM-s7zh-vk "Scene Mover")
 
-<!-- [![IMAGE ALT TEXT](http://img.youtube.com/vi/GzdKMVn8avo/0.jpg)](https://www.youtube.com/embed/GzdKMVn8avo "CameraMaster") -->
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zSM-s7zh-vk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/zSM-s7zh-vk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 ## Environment Installation
 1. **Install Jupyter** 
