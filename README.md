@@ -22,9 +22,13 @@ Please refer to our paper for the detailed formulations.
 ## Demonstration
 
 
-<div align="center">
+<!-- <div align="center">
     <img src="imgs/case.gif", width="700">
-</div>
+</div> -->
+
+<!-- [![IMAGE ALT TEXT](http://img.youtube.com/vi/GzdKMVn8avo/0.jpg)](https://www.youtube.com/embed/GzdKMVn8avo "CameraMaster") -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zSM-s7zh-vk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Environment Installation
 1. **Install Jupyter** 
