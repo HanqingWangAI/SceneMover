@@ -1,12 +1,12 @@
 # SceneMover
 
 <div align="center">
-    <img src="imgs/teaser.png", width="700">
+    <img src="assets/teaser.png", width="700">
 </div>
 
 This repository is the implementation of our SIGGRAPH Asia 2020 paper:
 
-[Scene Mover: Automatic Move Planning for Scene Arrangement by Deep Reinforcement Learning](#)
+[Scene Mover: Automatic Move Planning for Scene Arrangement by Deep Reinforcement Learning](assets/scene_mover.pdf)
 
 [Hanqing Wang](https://https://hanqingwangai.github.io/), [Wei Liang](http://iitlab.bit.edu.cn/mcislab/~liangwei/), [Lap-Fai Yu](https://craigyuyu.github.io/home/).
 
@@ -26,7 +26,7 @@ Please refer to our paper for the detailed formulations.
     <img src="imgs/case.gif", width="700">
 </div> -->
 Click [here](https://www.youtube.com/embed/zSM-s7zh-vk) to watch the demonstration on Youtube.
-[![Scene Mover](imgs/case.gif)](https://www.youtube.com/embed/zSM-s7zh-vk "Scene Mover")
+[![Scene Mover](assets/case.gif)](https://www.youtube.com/embed/zSM-s7zh-vk "Scene Mover")
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/zSM-s7zh-vk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
