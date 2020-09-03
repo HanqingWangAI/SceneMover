@@ -6,7 +6,7 @@
 
 This repository is the implementation of our SIGGRAPH Asia 2020 paper:
 
-[Scene Mover: Automatic Move Planning for Scene Arrangement by Deep Reinforcement Learning](assets/scene_mover.pdf)
+[Scene Mover: Automatic Move Planning for Scene Arrangement by Deep Reinforcement Learning](assets/mover.pdf)
 
 [Hanqing Wang](https://https://hanqingwangai.github.io/), [Wei Liang](http://iitlab.bit.edu.cn/mcislab/~liangwei/), [Lap-Fai Yu](https://craigyuyu.github.io/home/).
 
