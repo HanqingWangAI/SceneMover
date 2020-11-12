@@ -3,7 +3,7 @@ import pickle
 import random
 from copy import deepcopy
 
-from env import ENV_scene_new_action_pre_state_penalty_conflict_heuristic_transpose_shape_poly as classic
+from env import ENV as classic
 from env import ENV_ablation_wo_base as base
 from env import ENV_ablation_wo_multi as multi
 from env import ENV_ablation_wo_repetition as repetition
