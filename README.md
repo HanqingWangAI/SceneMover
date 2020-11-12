@@ -35,11 +35,19 @@ Click [here](https://www.youtube.com/embed/zSM-s7zh-vk) to watch the demonstrati
   Install jupyter using the following scripts. `pip install jupyter`
 
 2. **Install Requirements**
-To be updated.
+   - python 3.6
+   - g++  5.4.0
+   - ...
 3. **Build Files**
+```bash
+  cd src
+  g++ -shared -O2 search.cpp --std=c++11 -ldl -fPIC -o search.so
+```
+
+## Q-Net Training
 To be updated.
 
-## Quick Start
+
 #### Inference:
 To be updated.
 <!-- 1. Download the checkpoint of the agent to directory `snap/agent/state_dict/best_val_unseen`, the checkpoint of the speaker to directory `snap/speaker/state_dict/best_val_unseen_bleu`.
