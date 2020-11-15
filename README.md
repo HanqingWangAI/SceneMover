@@ -31,13 +31,17 @@ Click [here](https://www.youtube.com/embed/zSM-s7zh-vk) to watch the demonstrati
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/zSM-s7zh-vk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 ## Environment Installation
-1. **Install Jupyter** 
+1. **Install Requirements**
+   - python 3.6.9
+   - g++ 5.4.0
+   - CUDA 10.1
+   - pillow 6.1.0
+   - tensorflow 1.14.0
+   - tensorboardx 1.8
+  
+2. **Install Jupyter** 
   Install jupyter using the following scripts. `pip install jupyter`
 
-2. **Install Requirements**
-   - python 3.6
-   - g++  5.4.0
-   - ...
 3. **Build Files**
 ```bash
   cd src/utils
