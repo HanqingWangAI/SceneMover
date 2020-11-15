@@ -7,14 +7,13 @@ import time
 import pickle
 import random
 
-from mythread import MyThread
 import threading
 
 
 
 def train_net18_2_onehotchannel(teacher_force=True, batch_size = 64, tensorboard_path = "snap/191228_1/"):
-    from dataio import DataIO
-    from lstm import DQNetwork18_2, DQNetwork18_eval
+    from utils.dataio import DataIO
+    from utils.lstm import DQNetwork18_2, DQNetwork18_eval
     from tensorboardX import SummaryWriter
     '''
         HyperParameters
@@ -73,9 +72,9 @@ def train_net18_2_onehotchannel(teacher_force=True, batch_size = 64, tensorboard
     '''
         Setup env
     '''
-    env = DataIO('data/train_IL.pkl',batch_size)
-    env_tests = [DataIO('data/test_%d.pkl'%((i+1)*5),batch_size) for i in range(4)]
-    env_test_train = DataIO('data/train_IL.pkl',batch_size)
+    env = DataIO('../data/train_IL.pkl',batch_size)
+    env_tests = [DataIO('../data/test_%d.pkl'%((i+1)*5),batch_size) for i in range(4)]
+    env_test_train = DataIO('../data/train_IL.pkl',batch_size)
     
     # Setup TensorBoard Writer
     # writer = tf.summary.FileWriter(tensorboard_path)
