@@ -40,7 +40,7 @@ Click [here](https://www.youtube.com/embed/zSM-s7zh-vk) to watch the demonstrati
    - ...
 3. **Build Files**
 ```bash
-  cd src
+  cd src/utils
   g++ -shared -O2 search.cpp --std=c++11 -ldl -fPIC -o search.so
 ```
 
